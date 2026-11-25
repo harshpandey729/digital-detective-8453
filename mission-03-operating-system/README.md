@@ -19,7 +19,7 @@ Recorded privacy-safe system observations and operating-system responsibilities.
 |---|---|---|
 | Operating system | Which OS services and tools are present | macOS 27.0.1, build 26A434 |
 | Current account | Which local account runs commands | `[redacted]` |
-| Storage | Capacity and amount currently used | Privacy-safe storage snapshot was observed |
+| Storage | Capacity and amount currently used | Root volume snapshot: about 926 GiB total, 13 GiB used and 801 GiB available (about 2% used). |
 | System activity | A brief view of running processes | Process snapshot was reviewed |
 
 ### Task 3.2
@@ -28,9 +28,9 @@ A process is a running instance of a program. The PID column is the unique proce
 
 ### Task 3.3
 
-An absolute path begins at the filesystem root, while a relative path starts at the current directory. Example absolute path: `/Users/worksection/Desktop/Diwali Assignment/digital-detective-8453/mission-02-terminal`. Example relative path: `mission-02-terminal/terminal-practice`.
+An absolute path begins at the filesystem root, while a relative path starts at the current directory. Example absolute path: `/Users/[redacted]/Desktop/Diwali Assignment/digital-detective-8453/mission-02-terminal`. Example relative path: `mission-02-terminal/terminal-practice`.
 
-Permission example: `rw-r--r--` means the owner can read and write, while others can read. `r` means read, `w` write and `x` execute.
+The practice text file displayed `-rw-r--r--`: its owner can read and write it, but not execute it; other users can read it. `r` means read, `w` write and `x` execute.
 
 ### Task 3.4
 
