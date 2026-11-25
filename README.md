@@ -40,3 +40,7 @@ Enter a positive decimal integer when prompted.
 I learned how hardware and software combine to produce useful computer systems, how Terminal commands manage files, how the operating system controls processes and resources, and how programming tools and data representations work. I also practised Git workflows and reviewed how a browser uses DNS and protocols to communicate with a server.
 
 Each mission was completed and committed separately. Personal account names, Wi-Fi details, complete IP addresses and private device identifiers are not included in this repository.
+
+## My Learning
+
+I learned that an operating system coordinates hardware and software rather than performing every task itself. I also learned to use Git branches and Pull Requests to separate, review and combine changes safely.
