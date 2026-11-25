@@ -30,7 +30,7 @@ Staging chooses which changes belong in the next commit; committing records thos
 
 ### Branch and Pull Request workflow
 
-Create `update-about`, add the `My Learning` section to the root README, commit it and publish the branch. On GitHub, compare `update-about` with `main` and open a Pull Request. Merge only if instructed. Local Git can then switch to `main` and run `git pull`.
+Created and pushed the `update-about` branch with the `My Learning` section in the root README. Opened [PR #1](https://github.com/harshpandey729/digital-detective-8453/pull/1) from `update-about` into `main`. Its status is **Open, not merged**. Merge only if instructed.
 
 A branch is an independent line of development. A Pull Request proposes and reviews one branch's changes before merging. These tools help contributors isolate work and review differences.
 
@@ -50,13 +50,13 @@ A branch is an independent line of development. A Pull Request proposes and revi
 Git records and compares project snapshots locally, while GitHub hosts the repository for sharing and collaboration.
 
 ## 5. Difficulties faced
-GitHub authentication was not configured through the GitHub CLI or SSH.
+GitHub CLI was not available and SSH authentication was not configured.
 
 ## 6. How I resolved them
-Completed the local repository and commits first. Publishing must use an authenticated HTTPS credential or an SSH key added to the GitHub account.
+Published the repository and both branches using authenticated HTTPS. Created and reviewed the Pull Request on GitHub.
 
 ## 7. Evidence / files
-Commit history, this README and the planned `update-about` branch activity.
+Commit history, this README, the pushed `update-about` branch and [PR #1](https://github.com/harshpandey729/digital-detective-8453/pull/1).
 
 ## 8. Commit details
-Commit message: `Complete Git and GitHub collaboration mission`
+Mission commit: `Complete Git and GitHub collaboration mission`. PR documentation follow-up: `Record GitHub pull request status`. Both commits are pushed to GitHub.
