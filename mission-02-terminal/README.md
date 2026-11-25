@@ -4,7 +4,7 @@
 Practise safe Terminal operations, file management, flags, pipes and package-manager concepts.
 
 ## 2. Work completed
-Created `terminal-practice/practice.txt`, backed it up, renamed a copy, and documented command behavior and observations.
+Created an empty file, wrote and appended two lines to `practice.txt`, displayed the contents, backed it up and renamed the backup. Practised listings, navigation and piping output.
 
 ## 3. Commands / tools used
 
@@ -19,16 +19,17 @@ Created `terminal-practice/practice.txt`, backed it up, renamed a copy, and docu
 | `cp` | Copies a file. | Leaves the original and creates a backup copy. |
 | `mv` | Moves or renames a file. | Changes the file location or name. |
 | `cat` | Displays file contents. | Shows both saved lines. |
-| `ls -la` | Includes detailed listing and hidden files. | Adds hidden entries such as `.git`. |
-| `ls -lh` | Shows human-readable sizes. | Size values are easier to read. |
-| `ls -l | head` | Pipes the listing to `head`. | Only the first few listing lines appear. |
+| `ls -lah` | Includes hidden files, details and human-readable sizes. | Shows hidden entries and makes sizes easier to read. |
+| `ls -lah | head -n 5` | Pipes the listing to `head`. | Only the first few listing lines appear. |
+| `brew --version` | Displays the Homebrew version. | Homebrew 7.0.9 was available. |
+| `brew list` | Lists Homebrew-managed packages. | Displayed installed packages without installing or removing anything. |
 
 The pipe `|` sends the first command's output to the next command as input. `ls -l` creates the detailed list and `head` limits that list.
 
 ## 4. My understanding
 Replacing a file usually overwrites its previous contents. Appending adds text to the end. Copying preserves the original while moving changes the original file's location. `pwd` identifies location; `ls` helps users inspect and navigate folders.
 
-Package managers install, update and remove software consistently. Homebrew is available in this environment, and it would normally be checked with `brew --version` and `brew list`; this mission does not install or uninstall anything.
+Package managers install, update and remove software consistently. Homebrew 7.0.9 is available; `brew list` displayed its managed packages. I did not install or uninstall anything.
 
 ## 5. Difficulties faced
 No major difficulties.
@@ -37,7 +38,7 @@ No major difficulties.
 Not applicable.
 
 ## 7. Evidence / files
-`terminal-practice/practice.txt`, `practice-copy.txt` and this README.
+`terminal-practice/empty.txt`, `practice.txt`, `practice-copy.txt`, `practice-backup-renamed.txt` and this README.
 
 ## 8. Commit details
 Commit message: `Complete Terminal and file management mission`
