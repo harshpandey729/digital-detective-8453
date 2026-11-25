@@ -6,6 +6,20 @@ Verify the repository structure, complete the final README review and prepare th
 ## 2. Work completed
 Verified all mission folders and READMEs, tested both Python programs and the converter with three values, confirmed the mission commits were pushed, and opened PR #1. The Pull Request is open and intentionally not merged.
 
+### Mission status
+
+| Mission | Status |
+|---|---|
+| 0 - Repository setup | Complete; repository is public and pushed |
+| 1 - Computer basics | Complete and pushed |
+| 2 - Terminal | Complete; practice commands and files are documented and pushed |
+| 3 - Operating system | Complete; system observations are documented and pushed |
+| 4 - Programs | Complete; `hello.py` runs successfully |
+| 5 - Numbers and data | Complete; converter tested with three values |
+| 6 - Git and GitHub | Complete; PR #1 is open and not merged |
+| 7 - Networking | Complete; HTTPS and DNS observations are documented |
+| 8 - Final report | Repository review complete; instructor form submission is pending |
+
 ## 3. Commands / tools used
 - `python3 mission-04.../hello.py`: verify Python output.
 - `python3 mission-05.../number_converter.py`: verify decimal conversion.
