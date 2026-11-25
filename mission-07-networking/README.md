@@ -7,9 +7,8 @@ Explain LAN, MAN, WAN, DNS, routers, protocols, packet switching and client-serv
 Documented network concepts and the steps used to open a website.
 
 ## 3. Commands / tools used
-- `curl -I https://example.com`: connectivity and HTTP response check.
-- DNS lookup tools: resolve a public domain name to network addresses.
-- Browser: requested and displayed a public website.
+- `curl -I --max-time 10 https://example.com`: connectivity and HTTP response check.
+- Python `socket.getaddrinfo("example.com", 443, type=socket.SOCK_STREAM)`: resolve a public domain to network addresses.
 
 ### Network concepts
 
@@ -26,7 +25,7 @@ Documented network concepts and the steps used to open a website.
 
 ### Connectivity observations
 
-A connectivity test checks whether a host can reach and respond through the network. A DNS lookup shows the address information associated with a public domain name. DNS lets a browser avoid requiring people to type network addresses directly.
+The HTTPS connectivity check returned `HTTP/2 200` from `example.com`, showing that the host responded to the request. The DNS lookup returned the public IPv4 addresses `172.66.147.243` and `104.20.23.154`. A connectivity test checks whether a host can be reached and respond; a DNS lookup shows address information associated with a domain. DNS lets a browser use a human-readable name rather than requiring a person to enter a network address.
 
 ### Website communication
 
