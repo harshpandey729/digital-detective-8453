@@ -7,7 +7,7 @@ Create and run a simple Python program and compare compilers with interpreters.
 Created `hello.py` and added a compiler/interpreter comparison.
 
 ## 3. Commands / tools used
-- `python3 hello.py`: interpreted and ran the Python source file.
+- From the repository root, `python3 mission-04-programs/hello.py` ran the program and printed `Hello from Python`.
 
 ### Compiler and interpreter comparison
 
@@ -16,7 +16,7 @@ Created `hello.py` and added a compiler/interpreter comparison.
 | When translation/execution happens | Translates source before execution | Reads and executes instructions at runtime |
 | Typical output | Executable or intermediate form | Direct execution, usually no standalone executable |
 | One example | C or C++ compiler | CPython executing Python |
-| One advantage | Compiled output can run with optimised machine or bytecode conversion | Easier rapid testing and debugging |
+| One advantage | A compiler can optimize code before execution | Easier rapid testing and debugging |
 
 In this context, a compiler translates source code before a program runs, whereas an interpreter executes source instructions during runtime. Real implementations can combine compilation and interpretation, as Python implementations may compile source into bytecode before execution.
 

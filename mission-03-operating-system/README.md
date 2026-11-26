@@ -19,7 +19,7 @@ Recorded privacy-safe system observations and operating-system responsibilities.
 |---|---|---|
 | Operating system | Which OS services and tools are present | macOS 27.0.1, build 26A434 |
 | Current account | Which local account runs commands | `[redacted]` |
-| Storage | Capacity and amount currently used | Privacy-safe storage snapshot was observed |
+| Storage | Capacity and amount currently used | The root filesystem was 2% used during this audit; capacity and volume identifiers are omitted |
 | System activity | A brief view of running processes | Process snapshot was reviewed |
 
 ### Task 3.2

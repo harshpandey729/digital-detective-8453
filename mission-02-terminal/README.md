@@ -28,7 +28,7 @@ The pipe `|` sends the first command's output to the next command as input. `ls 
 ## 4. My understanding
 Replacing a file usually overwrites its previous contents. Appending adds text to the end. Copying preserves the original while moving changes the original file's location. `pwd` identifies location; `ls` helps users inspect and navigate folders.
 
-Package managers install, update and remove software consistently. Homebrew is available in this environment, and it would normally be checked with `brew --version` and `brew list`; this mission does not install or uninstall anything.
+Package managers install, update and remove software consistently. Homebrew 7.0.9 is available in this environment, as verified with `brew --version`. No packages were installed or removed for this mission.
 
 ## 5. Difficulties faced
 No major difficulties.

@@ -4,12 +4,11 @@
 Explain LAN, MAN, WAN, DNS, routers, protocols, packet switching and client-server communication.
 
 ## 2. Work completed
-Documented network concepts and the steps used to open a website.
+Documented network concepts, performed public HTTPS and DNS checks, and described the steps a browser follows when opening a website.
 
 ## 3. Commands / tools used
-- `curl -I https://example.com`: connectivity and HTTP response check.
-- DNS lookup tools: resolve a public domain name to network addresses.
-- Browser: requested and displayed a public website.
+- `curl -sS -I --max-time 10 https://example.com`: returned `HTTP/2 200`.
+- Python 3.9.6 `socket.getaddrinfo("example.com", 443, type=socket.SOCK_STREAM)`: resolved two unique addresses; address values are omitted.
 
 ### Network concepts
 
@@ -26,7 +25,7 @@ Documented network concepts and the steps used to open a website.
 
 ### Connectivity observations
 
-A connectivity test checks whether a host can reach and respond through the network. A DNS lookup shows the address information associated with a public domain name. DNS lets a browser avoid requiring people to type network addresses directly.
+The HTTPS request received `HTTP/2 200`, confirming that the example host responded successfully. The DNS lookup succeeded and returned two unique address values; they are not recorded here. A connectivity test checks whether a host can be reached and respond. DNS resolves a human-readable domain name to network address information.
 
 ### Website communication
 
@@ -48,7 +47,7 @@ No major difficulties.
 Used public example domains and recorded no private network details.
 
 ## 7. Evidence / files
-Network concept table and privacy-safe website steps in this README.
+Network concept table, observed HTTPS and DNS results, and privacy-safe website communication steps in this README.
 
 ## 8. Commit details
 Commit message: `Explain networking concepts and website communication`

@@ -50,13 +50,13 @@ A branch is an independent line of development. A Pull Request proposes and revi
 Git records and compares project snapshots locally, while GitHub hosts the repository for sharing and collaboration.
 
 ## 5. Difficulties faced
-GitHub authentication was not configured through the GitHub CLI or SSH.
+The GitHub CLI was not available and SSH authentication was not configured during initial setup.
 
 ## 6. How I resolved them
-Completed the local repository and commits first. Publishing must use an authenticated HTTPS credential or an SSH key added to the GitHub account.
+Published the repository and branches using the configured HTTPS remote. PR #1 was opened from `update-about` to `main` and remains open and unmerged.
 
 ## 7. Evidence / files
-Commit history, this README and the planned `update-about` branch activity.
+Commit history, this README, the pushed `update-about` branch and [PR #1](https://github.com/harshpandey729/digital-detective-8453/pull/1).
 
 ## 8. Commit details
-Commit message: `Complete Git and GitHub collaboration mission`
+Mission commit: `Complete Git and GitHub collaboration mission`. PR follow-up: `Record GitHub pull request status`. Both commits are present on `origin/update-about`.

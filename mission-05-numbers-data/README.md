@@ -29,6 +29,8 @@ Added manual calculations, Python verification, a working converter and text-enc
 
 ### Task 5.2 - Python verification
 
+These expressions were executed with Python 3.9.6 during the final audit; the observed results match the table.
+
 | Expression | Result | Match |
 |---|---|---|
 | `bin(13)` | `0b1101` | Yes |

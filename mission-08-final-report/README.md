@@ -4,7 +4,7 @@
 Review the repository structure and assignment documentation, and record the submission status accurately.
 
 ## 2. Work completed
-Reviewed the mission folders, READMEs and submission record. The required mission folders and READMEs, `hello.py` and the number converter are present. GitHub reports that the repository is public and Pull Request #1 is open and unmerged. The requested Python runs were executed during this review; their outputs are recorded below and in the Mission 5 README.
+Reviewed the mission folders, READMEs and submission record. The required mission folders and READMEs, `hello.py` and the number converter are present. GitHub reports that the repository is public and Pull Request #1 is open and unmerged. The requested Python runs were executed during this review; their outputs are recorded below and in the Mission 4 and Mission 5 READMEs.
 
 ### Mission status
 
@@ -14,10 +14,10 @@ Reviewed the mission folders, READMEs and submission record. The required missio
 | 1 - Computer basics | IPOS and computer examples are documented |
 | 2 - Terminal | Terminal concepts and practice files are documented |
 | 3 - Operating system | Operating-system concepts and observations are documented |
-| 4 - Programs | `hello.py` ran during this review; its observed output is recorded below |
+| 4 - Programs | `hello.py` ran during this review; its observed output is recorded in Mission 4 |
 | 5 - Numbers and data | Documented examples are distinguished from the converter cases executed during this review |
 | 6 - Git and GitHub | Git workflow is documented; PR #1 is open and unmerged |
-| 7 - Networking | Networking concepts are documented; lookup output is not included in this repository |
+| 7 - Networking | HTTPS and DNS checks succeeded; privacy-safe results are recorded in Mission 7 |
 | 8 - Final report | Report reviewed; `evidence/` contains only its placeholder README, and instructor-form submission status is unverified |
 
 ## 3. Commands / tools used
@@ -25,6 +25,8 @@ Reviewed the mission folders, READMEs and submission record. The required missio
 - `git diff --check`: check the report change for whitespace errors.
 - `python3 mission-04-programs/hello.py` (Python 3.9.6): output was `Hello from Python`.
 - `mission-05-numbers-data/number_converter.py`: inputs `13`, `25`, `42`, `0`, `-5` and `abc` were run; actual results are recorded in the [Mission 5 README](../mission-05-numbers-data/README.md).
+- `curl -sS -I --max-time 10 https://example.com`: returned `HTTP/2 200`.
+- Python `socket.getaddrinfo` for `example.com`: DNS resolution succeeded with two unique addresses; values are omitted.
 - GitHub repository and Pull Request pages: verify repository visibility and PR status.
 
 ## 4. My understanding
@@ -40,7 +42,7 @@ A strong submission has a clear structure, consistent documentation and verifiab
 - [x] Compiler/interpreter comparison is documented
 - [x] Number conversions and converter are documented
 - [x] Git and GitHub activity is visible; PR #1 is open and unmerged
-- [x] Networking concepts are documented
+- [x] Networking concepts, HTTPS result and DNS lookup are documented
 - [x] Private computer and network identifiers are excluded from the repository
 
 ## 5. Difficulties faced
@@ -58,4 +60,4 @@ The repository is available on GitHub and PR #1 is open without being merged. Th
 The `evidence/` folder contains only its README placeholder; no screenshots or command-output artifacts are present. The previously mentioned supporting PDFs are also absent, so no PDF links are included. Add any evidence required by the assignment before describing the submission as complete.
 
 ## 8. Commit details
-The earlier report correction was committed as `Fix final report and assignment documentation`. The Mission 5 and Mission 8 README updates were committed as `Finalize assignment documentation and test evidence`.
+Dedicated mission commits are present in the `update-about` history. Subsequent corrections include `Fix final report and assignment documentation`, `Correct converter and assignment documentation`, `Finalize assignment documentation and test evidence`, and `Correct final report commit record`. This audit's corrections are recorded as `Complete final assignment audit and corrections`; the new commit has not been pushed.

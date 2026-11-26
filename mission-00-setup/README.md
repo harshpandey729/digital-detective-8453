@@ -18,7 +18,7 @@ A repository records project files and their change history. Separating work int
 GitHub CLI was not available initially, and SSH authentication for GitHub was not configured.
 
 ## 6. How I resolved them
-Created the local repository structure first and retained a normal Git remote workflow. Authentication may be completed through GitHub's browser or HTTPS flow before the push.
+Created the local repository structure first. The repository was later published to GitHub through its configured HTTPS remote.
 
 ## 7. Evidence / files
 The root README and the mission folder structure. Tool versions: Python 3.9.6 and Git 2.54.0 (Apple Git-157).
