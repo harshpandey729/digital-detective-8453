@@ -58,4 +58,4 @@ The repository is available on GitHub and PR #1 is open without being merged. Th
 The `evidence/` folder contains only its README placeholder; no screenshots or command-output artifacts are present. The previously mentioned supporting PDFs are also absent, so no PDF links are included. Add any evidence required by the assignment before describing the submission as complete.
 
 ## 8. Commit details
-An earlier report correction was committed as `Fix final report and assignment documentation`; the current Mission 5 and Mission 8 README changes remain uncommitted.
+The earlier report correction was committed as `Fix final report and assignment documentation`. The Mission 5 and Mission 8 README updates were committed as `Finalize assignment documentation and test evidence`.
