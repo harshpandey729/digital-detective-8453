@@ -39,7 +39,7 @@ Added manual calculations, Python verification, a working converter and text-enc
 | `int("1F", 16)` | `31` | Yes |
 | `hex(int("1111", 2))` | `0xf` | Yes |
 
-### Task 5.3 - Converter tests
+### Task 5.3 - Documented converter cases
 
 | Test number | Binary output | Hexadecimal output |
 |---|---|---|
@@ -49,7 +49,20 @@ Added manual calculations, Python verification, a working converter and text-enc
 
 `bin()` uses base 2 and prefixes a string with `0b`. `hex()` uses base 16 and prefixes a string with `0x`.
 
-### Task 5.4 - Text encoding
+### Task 5.4 - Converter tests executed during this review
+
+These six inputs were run with Python 3.9.6. Each run printed the prompt `Enter a positive decimal number: ` followed by the output shown below.
+
+| Input | Observed output |
+|---|---|
+| `13` | `Binary: 0b1101`; `Hexadecimal: 0xd` |
+| `25` | `Binary: 0b11001`; `Hexadecimal: 0x19` |
+| `42` | `Binary: 0b101010`; `Hexadecimal: 0x2a` |
+| `0` | `Please enter a valid positive decimal integer.` |
+| `-5` | `Please enter a valid positive decimal integer.` |
+| `abc` | `Please enter a valid positive decimal integer.` |
+
+### Task 5.5 - Text encoding
 
 - ASCII decimal code for `A`: 65
 - ASCII decimal code for `a`: 97
