@@ -28,7 +28,7 @@ A process is a running instance of a program. The PID column is the unique proce
 
 ### Task 3.3
 
-An absolute path begins at the filesystem root, while a relative path starts at the current directory. Example absolute path: `/Users/worksection/Desktop/Diwali Assignment/digital-detective-8453/mission-02-terminal`. Example relative path: `mission-02-terminal/terminal-practice`.
+An absolute path begins at the filesystem root, while a relative path starts at the current directory. Example absolute path: `/Users/your-user/.../mission-02-terminal`. Example relative path: `mission-02-terminal/terminal-practice`.
 
 Permission example: `rw-r--r--` means the owner can read and write, while others can read. `r` means read, `w` write and `x` execute.
 

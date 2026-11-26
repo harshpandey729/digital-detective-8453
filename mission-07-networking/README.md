@@ -34,7 +34,7 @@ A connectivity test checks whether a host can reach and respond through the netw
 2. The browser sends the domain to DNS to resolve an address.
 3. DNS returns the matching network address information.
 4. The browser uses the router and internet to send a request.
-5. Network protocols divide and carry the request as packets.
+5. The networking stack divides data into packets. Network protocols define how these packets are addressed, transmitted, and interpreted.
 6. The server receives it and returns a response containing page resources.
 7. The browser interprets the response and displays the website.
 

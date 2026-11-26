@@ -1,6 +1,6 @@
 # Digital Detective - Mission-Based Diwali Assignment
 
-This public repository contains my completed work for the Digital Detective independent learning assignment.
+This public repository contains my work for the Digital Detective independent learning assignment.
 
 ## Student information
 
@@ -39,7 +39,7 @@ Enter a positive decimal integer when prompted.
 
 I learned how hardware and software combine to produce useful computer systems, how Terminal commands manage files, how the operating system controls processes and resources, and how programming tools and data representations work. I also practised Git workflows and reviewed how a browser uses DNS and protocols to communicate with a server.
 
-Each mission was completed and committed separately. Personal account names, Wi-Fi details, complete IP addresses and private device identifiers are not included in this repository.
+Mission work is organized by mission and tracked in separate commits. Personal account names, Wi-Fi details, complete IP addresses and private device identifiers are not included in this repository.
 
 ## My Learning
 

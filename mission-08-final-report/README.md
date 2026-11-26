@@ -18,7 +18,7 @@ Reviewed the mission folders, READMEs and submission record. The required missio
 | 5 - Numbers and data | Converter and documented test cases are present; execution was not rechecked in this review |
 | 6 - Git and GitHub | Git workflow is documented; PR #1 is open and unmerged |
 | 7 - Networking | Networking concepts are documented; lookup output is not included in this repository |
-| 8 - Final report | This report is reviewed; instructor-form submission status cannot be verified from the repository |
+| 8 - Final report | Report reviewed; `evidence/` contains only its placeholder README, and instructor-form submission status is unverified |
 
 ## 3. Commands / tools used
 - `git status`: inspect the branch and working-tree state.
@@ -53,7 +53,7 @@ The repository is available on GitHub and PR #1 is open without being merged. Th
 - [Mission 5 documentation](../mission-05-numbers-data/README.md) and [`number_converter.py`](../mission-05-numbers-data/number_converter.py)
 - [GitHub Pull Request #1](https://github.com/harshpandey729/digital-detective-8453/pull/1)
 
-The previously mentioned supporting PDFs are not present in the repository, so no PDF links are included.
+The `evidence/` folder contains only its README placeholder; no screenshots or command-output artifacts are present. The previously mentioned supporting PDFs are also absent, so no PDF links are included. Add any evidence required by the assignment before describing the submission as complete.
 
 ## 8. Commit details
 This report correction is recorded in Git history as `Fix final report and assignment documentation`.
